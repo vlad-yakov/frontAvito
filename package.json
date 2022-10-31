@@ -1,0 +1,36 @@
+{
+  "name": "front",
+  "packageManager": "yarn@3.2.4",
+  "version": "1.0.0",
+  "description": "MPA on Parcel jointly with TypeScript",
+  "main": "src/index.tsx",
+  "scripts": {
+    "": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git-вставить"
+  },
+  "keywords": [
+    "hack",
+    "news"
+  ],
+  "author": "Vladislav",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@types/react-redux": "^7.1.24",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-loader": "^4.13.0"
+  }
+}
