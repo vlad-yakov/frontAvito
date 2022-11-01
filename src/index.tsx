@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 import { getContext, resetContext } from 'kea'
@@ -15,3 +15,4 @@ ReactDOM.render(
     </Provider>,
     document.getElementById('root')
 )
+*/
