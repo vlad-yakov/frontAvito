@@ -1,18 +1,16 @@
-/*import React from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
-import { getContext, resetContext } from 'kea'
 import { App } from './App'
 
-resetContext({
-    createStore: {},
-    plugins: [],
-})
+import { store } from './app/store';
 
 ReactDOM.render(
-    <Provider store={getContext().store}>
-        <App />
-    </Provider>,
+    <React.StrictMode>
+        <Provider store={store}>
+            <App />
+        </Provider>
+    </React.StrictMode>,
     document.getElementById('root')
 )
-*/
+
